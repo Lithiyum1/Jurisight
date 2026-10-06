@@ -35,7 +35,7 @@ It fine-tunes and compares three transformer models (BERT, RoBERTa and Legal-BER
 | Art. 14 | Prohibition of discrimination |
 | Art. P1-1 | Protection of property |
 
-![Label distribution](docs/images/label_distribution.png)
+![Label distribution](label_distribution.png)
 
 ## How it works
 
@@ -64,20 +64,20 @@ Test set, 1,000 cases, decision threshold 0.5:
 RoBERTa had the best overall F1 and ROC-AUC, while Legal-BERT had the highest precision, lowest Hamming loss and best exact-match accuracy. The gap between micro-F1 and macro-F1 shows that all three models struggle with rarer articles, which the fairness analysis below makes visible.
 
 ### Training curves
-![Training curves](docs/images/training_curves.png)
+![Training curves](training_curves.png)
 
 ### ROC curves per article
-![ROC curves](docs/images/roc_curves.png)
+![ROC curves](roc_curves.png)
 
 ### Fairness: F1 per article
-![Fairness heatmap](docs/images/fairness_heatmap.png)
+![Fairness heatmap](fairness_heatmap.png)
 
 <details>
 <summary>Confusion matrices</summary>
 
-![BERT](docs/images/confusion_bert.png)
-![RoBERTa](docs/images/confusion_roberta.png)
-![Legal-BERT](docs/images/confusion_legal_bert.png)
+![BERT](confusion_bert.png)
+![RoBERTa](confusion_roberta.png)
+![Legal-BERT](confusion_legal_bert.png)
 
 </details>
 
@@ -93,14 +93,14 @@ RoBERTa had the best overall F1 and ROC-AUC, while Legal-BERT had the highest pr
 
 | Attention | Occlusion |
 |---|---|
-| ![Attention](docs/images/xai_attention.png) | ![Occlusion](docs/images/xai_occlusion.png) |
+| ![Attention](xai_attention.png) | ![Occlusion](xai_occlusion.png) |
 
 <details>
 <summary>SHAP, LIME and Integrated Gradients</summary>
 
-![SHAP-style](docs/images/xai_shap.png)
-![LIME](docs/images/xai_lime.png)
-![Integrated Gradients](docs/images/xai_integrated_gradients.png)
+![SHAP-style](xai_shap.png)
+![LIME](xai_lime.png)
+![Integrated Gradients](xai_integrated_gradients.png)
 
 </details>
 
@@ -144,7 +144,7 @@ The project runs as a single notebook in **Google Colab** with a GPU runtime.
 ```
 ├── Jurisight.ipynb      # Full pipeline: data, training, evaluation, XAI, web app
 ├── requirements.txt     # Python dependencies
-└── docs/images/         # Result plots used in this README
+└── .png                 # Result plots used in this README
 ```
 
 ## Tech stack
