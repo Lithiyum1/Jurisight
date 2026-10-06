@@ -162,7 +162,6 @@ Python, PyTorch, Hugging Face Transformers and Datasets, scikit-learn, SHAP, LIM
 
 - Chalkidis et al. (2022), *LexGLUE: A Benchmark Dataset for Legal Language Understanding in English*, ACL.
 - Chalkidis et al. (2020), *LEGAL-BERT: The Muppets straight out of Law School*, Findings of EMNLP.
-- Supervisor: <!-- add your supervisor's name -->
 
 ## Author
 
