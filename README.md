@@ -144,7 +144,7 @@ The project runs as a single notebook in **Google Colab** with a GPU runtime.
 ```
 ├── Jurisight.ipynb      # Full pipeline: data, training, evaluation, XAI, web app
 ├── requirements.txt     # Python dependencies
-└── .png                 # Result plots used in this README
+└── *.png                 # Result plots used in this README
 ```
 
 ## Tech stack
