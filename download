@@ -1,0 +1,18 @@
+# Trained models are too large for GitHub (~440-500 MB each)
+*.pt
+*.bin
+*.safetensors
+jurisight_models/
+jurisight_outputs/
+jurisight_data/
+jurisight_webapp/
+
+# Secrets
+.env
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
